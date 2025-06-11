@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="design.css" />
+</head>
+<body>
+    <img src="Untitled design.jpg" alt="background image" id="background-image" style="position: fixed; right: 0; bottom: 0; min-width: 100%; min-height: 100%; z-index: -1; object-fit: cover;" />
+    <script src="style.js"></script>
+    <header>
+        <div class="logo">Portfolio</div>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <div class="centered-content">
+            <p class="intro-text">DEBUGGING LIFE CREATIVELY</p>
+            <h1 class="Name">Trisha Rivera</h1>
+            <div class="button-container">
+                <button id="btn1" onclick="document.getElementById('projects').scrollIntoView({behavior: 'smooth'});">PROJECTS</button>
+                <button id="btn2" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">CONTACT</button>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="centered-content">
+            <h2 class="P1">Featured Projects</h2>
+            <div class="project-container">
+                <div class="project-item">
+                    <div class="project-box">
+                        <img src="No Projects Yet.jpg" alt="Project 1" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" />
+                    </div>
+                    <h1 class="Title1">None</h1>
+                    <p class="project-text">Still processing</p>
+                </div>
+                <div class="project-item">
+                    <div class="project-box">
+                        <img src="No Projects Yet (1).jpg" alt="Project 2" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" />
+                    </div>
+                    <h1 class="Title1">None</h1>
+                    <p class="project-text">Still processing</p>
+                </div>
+                <div class="project-item">
+                    <div class="project-box">
+                        <img src="No Projects Yet (2).jpg" alt="Project 3" style="width: 100%; height: 100%; object-fit: cover; border-radius: 8px;" />
+                    </div>
+                    <h1 class="Title1">None</h1>
+                    <p class="project-text">Still processing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <div class="centered-content">
+            <h2 class="Info">About</h2>
+<p class="Info1">
+Hey there! I’m Trisha Rivera, a tech-loving, design-curious Computer Engineering student on a creative mission.
+Right now, I’m diving into graphic design, web dev, and video editing, one tutorial (and coffee) at a time.
+I’m just getting started, but I’m all about learning, making cool stuff, and leveling up my skills.
+My journey’s just begun, and I’m excited to see where it takes me.
+Thanks for stopping by! Let’s learn, create, or collab sometime.
+</p>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="centered-content">
+            <h2 class="Cont">Contact</h2>
+            <p class="Cont1">Gmail: --------------@gmail.com <br>
+            Contact Number: 09-- --- ---- <br>
+            Facebook: Trisha Rivera <br>
+            Instagram: Tr_shrvr</p>
+        </div>
+    </section>
+</body>
+</html>
